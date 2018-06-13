@@ -1,1 +1,65 @@
 
+.wrapper {
+    position: fixed;
+    top: 185px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/Blue-Crystals-Background.png");
+    background-size: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #145ba8;
+    color: white;
+
+}
+
+.panel-default {
+    background-color: white;
+    border: #9CE7F8;
+    padding: 20px;
+}
+
+.panel-masthead {
+    text-align: center;
+}
+
+.target-number {
+    font-size:  30px;
+    background-color: blue;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 4px;
+}
+
+.win-lose-counter {
+    background-color: #9CE7F8;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 4px;
+
+
+}
+
+.crystal.images {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.total-score {
+    color: white;
+    background-color: aqua;
+}
+
+.score-number {
+    color: white;
+    background-color: aqua;
+    font-size: 30px;
+}
