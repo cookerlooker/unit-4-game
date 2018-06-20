@@ -17,15 +17,15 @@
 
         function resetCrystals () {
             for (var i = 0; i < images.length; i++) {
-                var crystal = $(".crystal-images");
-                crystal.append("<img src='" + images[i] + "' alt='crystal'>");
+                var crystal = $("<img>");
+                crystal.addClass("crystal");
+                crystal.attr("src", images[i]);
                 crystal.attr("value", (Math.floor(Math.random() * 12) + 1));
                 crystal.attr("height", "100");
-                $(".crystal.images").append(crystal);
-            
-            
+                $(".crystal-images").append(crystal);
             }
         }
+    
         
 
         function resetHtml () {
